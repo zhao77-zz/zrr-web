@@ -1,0 +1,269 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>九尾·KPL顶级中单选手</title>
+    <style>
+        :root {
+            --main-color: #673ab7;
+            --accent-color: #ff5722;
+            --bg-gradient: linear-gradient(135deg, #f3e5f5 0%, #e8f5e9 100%);
+        }
+
+        body {
+            background: var(--bg-gradient);
+            font-family: "Microsoft YaHei", "Segoe UI", sans-serif;
+            margin: 0;
+            padding: 20px;
+        }
+
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+        }
+
+        .header {
+            text-align: center;
+            padding: 40px 0;
+            background: var(--main-color);
+            margin: -20px -20px 30px;
+            border-radius: 0 0 20px 20px;
+            box-shadow: 0 4px 15px rgba(0,0,0,0.1);
+        }
+
+        h1 {
+            color: white;
+            font-size: 2.8em;
+            text-shadow: 2px 2px 4px rgba(0,0,0,0.3);
+            margin: 0;
+            letter-spacing: 2px;
+        }
+
+        .timeline-card {
+            background: white;
+            border-radius: 15px;
+            padding: 25px;
+            margin: 20px auto;
+            box-shadow: 0 5px 20px rgba(0,0,0,0.1);
+            transition: transform 0.3s ease;
+            max-width: 800px;
+        }
+
+        .timeline-card:hover {
+            transform: translateY(-5px);
+        }
+
+        table {
+            width: 100%;
+            border-collapse: collapse;
+        }
+
+        table td {
+            padding: 15px;
+            border-left: 3px solid var(--main-color);
+            transition: background 0.3s;
+        }
+
+        table tr:hover td {
+            background: #f5f5f5;
+        }
+
+        .achievement-section {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+            gap: 20px;
+            margin: 30px 0;
+        }
+
+        .card {
+            background: white;
+            border-radius: 12px;
+            padding: 20px;
+            box-shadow: 0 3px 10px rgba(0,0,0,0.1);
+        }
+
+        .card h3 {
+            color: var(--main-color);
+            border-bottom: 2px solid var(--accent-color);
+            padding-bottom: 10px;
+        }
+
+        .hero-list {
+            columns: 2;
+            list-style-type: none;
+            padding: 0;
+        }
+
+        .hero-list li {
+            padding: 8px 0;
+            position: relative;
+            padding-left: 25px;
+        }
+
+        .hero-list li:before {
+            content: "🎮";
+            position: absolute;
+            left: 0;
+        }
+
+        .video-section {
+            position: relative;
+            padding: 20px;
+            background: rgba(255,255,255,0.9);
+            border-radius: 15px;
+            margin: 30px 0;
+        }
+
+        .search-box {
+            display: flex;
+            justify-content: center;
+            gap: 10px;
+            margin: 30px 0;
+        }
+
+        input[type="text"] {
+            padding: 12px 20px;
+            border: 2px solid var(--main-color);
+            border-radius: 25px;
+            width: 400px;
+            font-size: 16px;
+            transition: all 0.3s;
+        }
+
+        input[type="text"]:focus {
+            outline: none;
+            border-color: var(--accent-color);
+            box-shadow: 0 0 10px rgba(255,87,34,0.2);
+        }
+
+        input[type="submit"] {
+            background: linear-gradient(135deg, var(--main-color), #512da8);
+            color: white;
+            padding: 12px 30px;
+            border: none;
+            border-radius: 25px;
+            cursor: pointer;
+            font-weight: bold;
+            transition: transform 0.2s;
+        }
+
+        input[type="submit"]:hover {
+            transform: scale(1.05);
+            opacity: 0.9;
+        }
+
+        .player-img {
+            width: 100%;
+            max-width: 600px;
+            border-radius: 15px;
+            box-shadow: 0 10px 20px rgba(0,0,0,0.2);
+            transition: transform 0.3s;
+        }
+
+        .player-img:hover {
+            transform: scale(1.02);
+        }
+
+        @media (max-width: 768px) {
+            .achievement-section {
+                grid-template-columns: 1fr;
+            }
+            input[type="text"] {
+                width: 70%;
+            }
+        }
+    </style>
+</head>
+
+<body>
+    <div class="container">
+        <header class="header">
+            <h1>九尾·KPL顶级中单选手</h1>
+            <p style="color: #fff; margin-top: 10px;">峡谷智将·中路法王</p>
+        </header>
+
+        <div class="timeline-card">
+            <h3>✨ 选手成长历程</h3>
+            <table>
+                <tr>
+                    <td>2017年夏 - 加入XQ青训战队</td>
+                </tr>
+                <tr>
+                    <td>2019年3月9日 - KPL首秀</td>
+                </tr>
+                <tr>
+                    <td>2021年 - 年度三亚传奇</td>
+                </tr>
+                <tr>
+                    <td>2024年 - 转会杭州LGD.NBW</td>
+                </tr>
+            </table>
+        </div>
+
+        <div class="achievement-section">
+            <div class="card">
+                <h3>🏆 荣誉殿堂</h3>
+                <ol>
+                    <li>2021 KPL春季赛亚军</li>
+                    <li>2021 KPL秋季赛亚军</li>
+                    <li>2021 挑战者杯亚军</li>
+                </ol>
+            </div>
+            <div class="card">
+                <h3>🎯 招牌英雄</h3>
+                <ul class="hero-list">
+                    <li>不知火舞</li>
+                    <li>上官婉儿</li>
+                    <li>貂蝉</li>
+                    <li>沈梦溪</li>
+                    <li>姜子牙</li>
+                    <li>弈星</li>
+                </ul>
+            </div>
+        </div>
+
+        <div class="search-box">
+            <form action="https://s.weibo.com/weibo" target="_blank">
+                <input type="text" name="q" placeholder="搜索九尾最新动态..." value="九尾">
+                <input type="submit" value="立即搜索">
+            </form>
+        </div>
+
+        <div class="video-section">
+          <h2>🔥 高光时刻</h2>
+          <img src="img/jiuwei.webp" alt="九尾赛场英姿" class="player-img">
+          
+          <!-- 新增观赛链接 -->
+          <div class="card" style="margin: 20px auto; text-align: center;">
+              <a href="https://pvp.qq.com/match/kpl/kingproleague/index.html" 
+                 target="_blank"
+                 style="text-decoration: none;
+                        color: white;
+                        padding: 12px 25px;
+                        border-radius: 25px;
+                        background: linear-gradient(135deg, #673ab7, #512da8);
+                        display: inline-block;
+                        transition: transform 0.3s;">
+                  🎮 官方观赛通道
+              </a>
+              <p style="color: #666; margin-top: 10px; font-size: 0.9em;">
+                  实时观看KPL职业联赛
+              </p>
+          </div>
+      
+          <iframe 
+              src="//player.bilibili.com/player.html?isOutside=true&aid=936095092&bvid=BV1NT4y117gT&cid=494156055&p=1"
+              scrolling="no" 
+              frameborder="no" 
+              allowfullscreen="true" 
+              width="100%" 
+              height="450"
+              style="border-radius: 12px; margin-top: 20px;">
+          </iframe>
+        </div>
+            </form>
+        </div>
+      </body>
+      </html>

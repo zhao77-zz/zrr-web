@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <titleJavaScript 异步编程练习2</title>
+</head>
+
+<body>
+    <h1>JavaScript 异步编程练习</h1>
+    <div id="demo"></div>
+    <script>
+        // 修复getSomething函数，使用fetch获取GitHub提交日期
+        function getSomething(repoUrl) {
+            return new Promise((resolve) => {
+                // 从URL提取用户名和仓库名
+                const parts = repoUrl.split('/');
+                const username = parts[parts.length - 2];
+                const repoName = parts[parts.length - 1];
+                
+                // 使用fetch获取数据
+                fetch(`https://api.github.com/repos/${username}/${repoName}/commits`)
+                    .then(response => response.json())
+                    .then(data => {
+                        const commitDates = data.map(commit => commit.commit.committer.date);
+                        resolve(commitDates);
+                    });
+            });
+        }
+
+        // 修改使用示例部分，使用你的GitHub仓库地址
+        // 修改为async/await调用方式
+        (async () => {
+            try {
+                const dates = await getSomething('https://github.com/zhao77-zz/web--');
+                console.log('提交日期(JSON):', JSON.stringify(dates));
+                document.getElementById('demo').innerText = JSON.stringify(dates);
+            } catch (error) {
+                console.error('获取提交日期失败:', error);
+                document.getElementById('demo').innerText = '获取提交日期失败';
+            }
+        })();
+    </script>
+</body>
+</html>

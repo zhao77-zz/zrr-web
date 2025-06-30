@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JavaScript</title>
+    <script>
+        //类和对象
+        //1.定义一个类
+        class student {
+            // 构造函数
+            constructor(name, age, school, grade) {
+                this.name = name;
+                this.age = age;
+                this.school = school;
+                this.grade = grade;
+            }
+
+            // 方法
+            learn(subject = "语文") {
+                // 使用反引号来创建模板字符串
+                console.log(`${this.name}正在学习${subject},厉害`);
+            }
+
+            exam() {
+                // 修正为英文分号
+                console.log(`${this.name}正在上课`);
+            }
+        }
+
+        //2.创建对象
+        let xiaoming = new student("小明", 7, "实验中学", 1);
+        xiaoming.learn("英语");
+        xiaoming.exam();
+
+        // 修改类名大小写
+        class undergraduate extends student {
+            constructor(name, age, school, grade, major, skill, experience) {
+                super(name, age, school, grade);
+                this.major = major;
+                // 修改中文标点为英文标点
+                this.experience = experience;
+            }
+            intern(corp) {
+                // 正确使用模板字符串
+                console.log(`${this.name}正在${corp}实习`); 
+            }
+            //回调函数，函数作为参数传递给另一个函数
+            console.log("111111");
+
+            // 定义具体的毫秒值
+            setTimeout(function() {
+                console.log("2222222");
+            }, 2000); 
+        }
+    </script>
+</head>
+<body>
+
+</body>
+</html>
