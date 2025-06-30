@@ -1,0 +1,98 @@
+[
+  {
+    "id": 2,
+    "title": "组件星云·My App",
+    "description": "在紫色宇宙中搭建你的第一个 React 组件星球。",
+    "link": "/practice/my-app",
+    "imageUrl": "https://images.unsplash.com/photo-1506744038136-46273834b3fb?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+    "tags": ["React", "入门"]
+  },
+  {
+    "id": 3,
+    "title": "CSS 起源·幻彩入门",
+    "description": "点亮样式世界，掌控选择器与基础属性的能量。",
+    "link": "/practice/03-css-01",
+    "imageUrl": "https://images.unsplash.com/photo-1509343256512-d77a5cb3791b?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+    "tags": ["CSS", "基础"]
+  },
+  {
+    "id": 4,
+    "title": "盒模型·空间魔方",
+    "description": "解锁盒模型与布局的奥秘，构建未来感页面结构。",
+    "link": "/practice/03-css-02",
+    "imageUrl": "https://images.unsplash.com/photo-1522252234503-e356532cafd5?q=80&w=1925&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+    "tags": ["CSS", "盒模型"]
+  },
+  {
+    "id": 5,
+    "title": "浮动与定位·紫域流动",
+    "description": "驾驭元素流动与定位，打造灵动的紫色空间。",
+    "link": "/practice/04-css-01",
+    "imageUrl": "https://images.unsplash.com/photo-1618761714954-0b8cd0026356?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+    "tags": ["CSS", "布局"]
+  },
+  {
+    "id": 6,
+    "title": "定位进阶·次元穿梭",
+    "description": "穿梭于相对与绝对之间，体验多维布局的魅力。",
+    "link": "/practice/04-css-02",
+    "imageUrl": "https://images.unsplash.com/photo-1543286386-713bdd548da4?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+    "tags": ["CSS", "定位"]
+  },
+  {
+    "id": 7,
+    "title": "相对定位·空间跃迁",
+    "description": "掌控元素的相对跃迁，感受布局的自由变换。",
+    "link": "/practice/04-css-02-relative",
+    "imageUrl": "https://images.unsplash.com/photo-1587620962725-abab7fe55159?q=80&w=1931&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+    "tags": ["CSS", "定位"]
+  },
+  {
+    "id": 8,
+    "title": "静态新闻·紫曜快讯",
+    "description": "用 HTML+CSS 构建未来新闻，信息跃动于紫色光影。",
+    "link": "/practice/05-news01",
+    "imageUrl": "https://images.unsplash.com/photo-1495020689067-958852a7765e?q=80&w=2069&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+    "tags": ["HTML", "CSS"]
+  },
+  {
+    "id": 9,
+    "title": "交互新闻·高能播报",
+    "description": "JavaScript 赋能新闻，体验动态交互的科技感。",
+    "link": "/practice/06-news01",
+    "imageUrl": "https://images.unsplash.com/photo-1585829365295-ab7cd400c167?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+    "tags": ["JavaScript", "DOM"]
+  },
+  {
+    "id": 10,
+    "title": "新闻宇宙·多维布局",
+    "description": "复杂布局与脚本共舞，新闻内容跃迁于紫色宇宙。",
+    "link": "/practice/06-news02",
+    "imageUrl": "https://images.unsplash.com/photo-1504711434969-e33886168f5c?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+    "tags": ["JavaScript", "布局"]
+  },
+  {
+    "id": 11,
+    "title": "异步星门·Promise 探索",
+    "description": "穿越异步时空，掌握 Promise 与 async/await 的奥义。",
+    "link": "/practice/07-async-01",
+    "imageUrl": "https://images.unsplash.com/photo-1579403124614-197f69d8187b?q=80&w=1964&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+    "tags": ["JavaScript", "异步"]
+  },
+  {
+    "id": 12,
+    "title": "API 之光·数据流转",
+    "description": "用 fetch API 驾驭数据流，点亮紫色未来。",
+    "link": "/practice/07-async-02",
+    "imageUrl": "https://images.unsplash.com/photo-1543286386-713bdd548da4?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+    "tags": ["JavaScript", "API"]
+  },
+  {
+    "id": 13,
+    "title": "初始宇宙·静态起点",
+    "description": "见证前端世界的起源，回溯最初的紫色页面。",
+    "link": "/practice/index",
+    "imageUrl": "https://images.unsplash.com/photo-1551650975-87deedd944c3?q=80&w=1974&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+    "tags": ["HTML"]
+  }
+] 
